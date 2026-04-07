@@ -119,7 +119,7 @@ Hydropathy        --+---------------+-------
 ## 📚 Proteoma
 
 * ID: **UP000000558**
-* Total de proteínas: **~5.400**
+* Total de proteínas: **5.056**
 * [https://www.uniprot.org/proteomes/UP000000558](https://www.uniprot.org/proteomes/UP000000558)
 
 ---
