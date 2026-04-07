@@ -67,40 +67,51 @@ bioinfoufsc/epibuilder-core epibuilder \
 
 **FastProtein**
 
-* Proteínas processadas: **5.400**
-* Ignoradas: **0**
-* Tempo total: **~6 min 30 s**
-* Proteínas com domínio transmembranar: **~1.200**
-* Proteínas com evidência de membrana: **~900**
+* Proteínas processadas: **5053**
+* Ignoradas: **3**
+* Tempo total: **00:08:40:129s**
+* Proteínas com domínio transmembranar: **1191**
+* Proteínas com evidência de membrana: **1218**
 
 **EpiBuilder**
 
 * Proteínas analisadas: **50**
-* Proteínas com epítopos preditos: **38**
+* Proteínas com epítopos preditos: **15**
 
 ---
 
 ## 📋 Epítopos (Top 5)
 
-| ID     | Epítopo             | Início | Fim | N-glico |
-| ------ | ------------------- | ------ | --- | ------- |
-| P0A8V2 | MKAILVVLLYTFATANADT | 1      | 19  | Não     |
-| P0A940 | GLTSAAAGLLVAMGAGT   | 45     | 61  | Não     |
-| P0A7V0 | TAVVAGLALAGLVLQ     | 12     | 26  | Não     |
-| P0A7N9 | VAGSSLLAALATASA     | 33     | 47  | Não     |
-| P0A805 | LLGAGALVAAGLSA      | 20     | 33  | Não     |
+| ID     | Epítopo                    | Início | Fim | N-glico |
+| ------ | -------------------------- | ------ | --- | ------- |
+| Q8X903 | NPFDQSSQPQQQPQQQPAQQEQKDSD | 805    | 831 | Não     |
+| Q7BSW5 | NWGNSTYKQTDWN              | 138    | 151 | Sim     |
+| P69743 | ENQTPRSQKPD                | 312    | 323 | Sim     |
+| P0AA79 | EAQHQVSTAKK                | 206    | 217 | Não     |
+| P0AEE4 | FDKSNDGETPEG               | 219    | 231 | Não     |
 
 ---
 
 ## 🔬 Topologia do Epítopo #1
 
-```
-Protein: P0A8V2
-Localization: Membrane
-Epitope: MKAILVVLLYTFATANADT
-Position: 1 - 19
-Topology: Extracellular region
-N-glycosylation: No
+```text
+Sequence          NPFDQSSQPQQQPQQQPAQQEQKDSD
+
+Emini             .EEEEEEEEEEEEEEEEEEEEEEEE.
+
+Kolaskar          .........EEEEEEEE.........
+
+Chou Fosman       EEEEEEEEEEEEEEEEE....EEEEE
+
+Karplus Schulz    EEEEEEEEEEEEEEEEEEEEEEEEEE
+
+Parker            EEEEEEEEEEEEEEEEEEEEEEEEEE
+
+All matches       .........EEEEEEEE.........
+
+N-Glyc            ..........................
+
+Hydropathy        --+---------------+-------
 ```
 
 ---
